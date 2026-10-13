@@ -20,6 +20,7 @@ public class Eventos{
         System.out.print("---------------------------------- Selecione sua opção: ");
 
         opcao = teclado.nextInt();
+        teclado.nextLine(); // Limpa o buffer
 
         switch (opcao) {
             case 1:
